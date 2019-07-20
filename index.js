@@ -26,5 +26,6 @@ function sayHiToGrandma (string) {
     return loveresponse;
   }
 }
+function sayHiToGrandma (string) {
 var whisperresponse = "I can't hear you!";
   var loveresponse = "I love you, too";
