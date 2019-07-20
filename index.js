@@ -21,6 +21,9 @@ function sayHiToGrandma (string) {
   if (string.toUpperCase() === string) {
     return shoutresponse;
   }
+  else if (string.toLowerCase() === string) {
+    return whisperresponse;
+  }
   else if (string.toUpperCase() === string) {
     return shoutresponse;
   }
