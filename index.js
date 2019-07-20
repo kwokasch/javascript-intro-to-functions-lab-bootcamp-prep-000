@@ -16,16 +16,20 @@ function logWhisper(string) {
 
 function sayHiToGrandma (string) {
   var shoutresponse = "YES INDEED";
-  if (string.toUpperCase(string) === string) {
+  if (string.toUpperCase(string) === string)
     return shoutresponse;
   }
-  else if (string.toLowerCase(string) === string) {
+
+function sayHiToGrandma (string) {
+  var whisperresponse = "I can't hear you!";
+  if (string.toLowerCase(string) === string)
     return whisperresponse;
   }
-  else if ("I love you, Grandma." === string) {
+function sayHiToGrandma (string) {
+  var loveresponse = "I love you, too";
+  if ("I love you, Grandma." === string)
     return loveresponse;
   }
-}
-function sayHiToGrandma (string) {
-var whisperresponse = "I can't hear you!";
-  var loveresponse = "I love you, too";
+
+
+  
