@@ -19,18 +19,13 @@ function sayHiToGrandma (string) {
   var whisperresponse = "I can\'t hear you!";
   var loveresponse = "I love you, too";
   
-  if (string.toUpperCase(string) === string){
+  if (string.toUpperCase(string) === string) {
     return shoutresponse;
   }
-
-function sayHiToGrandma (string) {
-  var whisperresponse = "I can\'t hear you!";
-  if (string.toLowerCase(string) === string)
+  else if (string.toLowerCase(string) === string) {
     return whisperresponse;
   }
-function sayHiToGrandma (string) {
-  var loveresponse = "I love you, too";
-  if ("I love you, Grandma." === string)
+  else if ("I love you, Grandma." === string) {
     return loveresponse;
   }
 }
